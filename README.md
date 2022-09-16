@@ -1,4 +1,4 @@
-# my-awesome-app
+# Vue Boilerplate with Tailwind Css
 
 ## Project setup
 ```
@@ -13,16 +13,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
 ```
 
 ### Lints and fixes files
@@ -44,8 +34,6 @@ src
 --modules
 --plugins
 --router
---services
---static
 --store
 --views
 ```
@@ -76,10 +64,6 @@ This is the core of the application. Here we store all of modules — logically 
 ## Plugins
 
 In this folder create and connect all plugins
-
-## Services
-
-This folder is needed to store services. For example, to create and save an API connections service, localStorage manager service, etc.
 
 ## Router
 

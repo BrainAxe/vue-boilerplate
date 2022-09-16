@@ -3,10 +3,12 @@ import * as mutations from "./mutations";
 import * as actions from "./actions";
 import * as getters from "./getters";
 
-export const app_name = {
+const appName = {
   namespaced: true,
   state,
   actions,
   mutations,
   getters,
 };
+
+export default appName;

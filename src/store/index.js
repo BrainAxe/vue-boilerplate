@@ -1,21 +1,18 @@
-import Vue from "vue";
-import Vuex from "vuex";
+import { createStore } from "vuex";
+
+import appName from "@/modules/app_name/store";
 
 import * as state from "./state";
 import * as mutations from "./mutations";
 import * as actions from "./actions";
 import * as getters from "./getters";
 
-import { app_name } from "@/modules/app_name/store";
-
-Vue.use(Vuex);
-
-export default new Vuex.Store({
+export default createStore({
   state,
   mutations,
   actions,
   getters,
   modules: {
-    app_name,
+    appName,
   },
 });
